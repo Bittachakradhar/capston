@@ -1,0 +1,9 @@
+gunicorn
+Flask
+Flask-CORS
+PyJWT
+PyPDF2
+google-generativeai
+python-dotenv
+requests
+Werkzeug
