@@ -2984,7 +2984,7 @@ async function renderMermaidGraph(role) {
 
 // Init Check
 if (!localStorage.getItem('auth_token')) {
-    window.location.href = '/auth.html';
+    window.location.href = 'auth.html';
 } else {
     renderUserProfile();
     refreshProfile();
